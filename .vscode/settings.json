@@ -1,0 +1,10 @@
+{
+	"java.project.referencedLibraries": [
+		"lib/**/*.jar",
+		"/home/tislamov/Develop/ant-javacard/sdks/jc310r20210706_kit/lib/api_classic-3.0.4.jar",
+		"jc310r20210706_kit/lib/api_classic-3.0.4.jar",
+		"libraries/jc304_kit/lib/api_classic.jar",
+		"/home/telman/develop/_JavaCard-dev/utilslib/dist/libutils.jar",
+		"/home/telman/develop/_JavaCard-dev/libutils/dist/libutils.jar"
+	]
+}
