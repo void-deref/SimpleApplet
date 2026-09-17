@@ -7,7 +7,8 @@
     <description>Simple Applet</description>
 
     <target name="build-applet" description="generate the distribution">
-        <tstamp/>
+        
+        <mkdir dir="dist" />
         <javacard jckit="./libraries/jc304_kit">
             <cap aid="A0:00:00:00:84" output="dist/SimpleApplet.cap" sources="src" version="1.0">
                 <applet class="simple.applet.SimpleApplet" aid="A0:00:00:00:84:53:69:6D:70:6C:65:41:70:70"/>
@@ -15,10 +16,12 @@
                 <import jar="../libutils/dist/libutils.jar"/>
             </cap>
         </javacard>
+        <tstamp/>
     </target>
 
     <target name="clean" description="Delete previously built applet">
         <delete dir="dist"/>
+        <mkdir dir="dist" />
     </target>
 
 </project>
