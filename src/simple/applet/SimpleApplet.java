@@ -10,11 +10,11 @@ SimpleApplet extends Applet
 	private static final byte INS_BUBBLE_SORT = 0x14;
 	private static final byte INS_PARSE_BCD   = 0x16;
 
-	byte[] ram;
 	Utils utils;
 
-	public SimpleApplet() {
-		ram = JCSystem.makeTransientByteArray((short)64, JCSystem.CLEAR_ON_DESELECT);
+	public
+	SimpleApplet()
+	{
 		utils = new Utils();
 	}
 
