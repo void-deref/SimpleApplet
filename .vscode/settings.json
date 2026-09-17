@@ -2,7 +2,5 @@
 	"java.project.referencedLibraries": [
 		"lib/**/*.jar",
 		"libraries/jc304_kit/lib/api_classic.jar",
-		"/home/telman/develop/_JavaCard-dev/libutils/dist/libutils.jar",
-		"c:\\Users\\tislamov\\develop\\_JavaCard-dev\\libutils\\dist\\libutils.jar"
 	]
 }
